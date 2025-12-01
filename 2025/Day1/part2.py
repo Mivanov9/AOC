@@ -18,6 +18,6 @@ for i in input:
         solution += (abs(sum) // 100) + 1
     elif (sum <= 0):
         solution += (abs(sum) // 100)
-    position = (position + value) % 100
+    position = sum % 100
   
 print(solution)
